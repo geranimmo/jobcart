@@ -7,7 +7,6 @@ export const getTotalDiscount = () => {
 		let totalDiscount = 0;
 	
 		for ( let i = 0; i < ClientSpecial.length; i++ ) {
-			console.log(1);
 			let currentDiscount;
 			const getInCartPromoItems = filterPromoById(ClientSpecial[i].package_id, ShoppingCart);
 			
